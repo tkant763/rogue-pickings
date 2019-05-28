@@ -1,0 +1,118 @@
+/***** BASE STYLES *****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.third-width {
+    float: left;
+}
+
+section div.full-width {
+    border-bottom: solid #dedbdc 1px;
+}
+
+/***** Header *****/
+header h1 {
+    float: left;
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    margin: 40px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** Top Section *****/
+main {
+    clear: both;
+}
+
+section#top img {
+    border-top: solid #77a466 3px;
+    border-bottom: solid #77a466 3px;
+}
+section#top h2 {
+     color: #77a466;
+     font-size: 18px;
+     font-weight: bold;
+     margin: 30px 0;
+ }
+
+div#about p {
+     margin-bottom: 38px;
+ }
+
+/***** Bottom Section *****/
+section h3 {
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+div#menu {
+    width: 398px;
+}
+
+div#menu a {
+    color: #77a466;
+    display: block;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+div#reviews {
+    border-left: solid #dedbdc 1px;
+    border-right: solid #dedbdc 1px;
+    padding: 0 30px;
+    width: 340px;
+}
+
+div#reviews p {
+    margin-bottom: 25px;
+}
+
+div#contact {
+    padding-left: 30px;
+    width: 368px;
+}
+
+/***** Footer *****/
+footer h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer h2 span {
+    color: #77a466;
+    font-family: 'Allura', script;
+    text-transform: lowercase;
+}
