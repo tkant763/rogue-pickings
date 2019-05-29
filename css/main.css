@@ -19,10 +19,6 @@ h1, h2, h3 {
     float: left;
 }
 
-section div.full-width {
-    border-bottom: solid #dedbdc 1px;
-}
-
 /***** Header *****/
 header {
     border-bottom: solid #77a466 3px;
@@ -77,18 +73,23 @@ div#about p {
  }
 
 /***** Bottom Section *****/
+section#bottom div.full-width {
+    border-top: solid #dedbdc 1px;
+}
+
 section h3 {
     font-size: 12px;
-    margin: 30px 0;
+    margin: 27px 0 23px 0;
 }
 
 div#menu {
-    width: 398px;
+    width: 396px;
 }
 
 div#menu a {
     color: #77a466;
     display: block;
+    line-height: 13px;
     margin-bottom: 24px;
     text-decoration: none;
 }
@@ -97,7 +98,7 @@ div#reviews {
     border-left: solid #dedbdc 1px;
     border-right: solid #dedbdc 1px;
     padding: 0 30px;
-    width: 340px;
+    width: 341px;
 }
 
 div#reviews p {
