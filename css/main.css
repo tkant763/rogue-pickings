@@ -111,8 +111,13 @@ div#contact {
 }
 
 /***** Footer *****/
+footer {
+    border-top: solid #dedbdc 1px;
+}
+
 footer h2 {
     font-size: 16px;
+    margin: 29px 0 26px 0;
     text-align: center;
 }
 
